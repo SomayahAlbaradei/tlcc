@@ -28,10 +28,14 @@ To use TLCC model, please git clone it and make sure you have
 
 To successfully run TLCC model we recomend you to create a virtul environment
 based on requirements.txt:
-```
- $ conda create --name tlcc --file requirements.txt
+
+```bash
+conda create --name tlcc --file requirements.txt
 # Activate your virtual environment:
- $ source activate tlcc  #  or 'conda activate tlcc'
- $ conda install pytorch torchvision cpuonly -c pytorch
+source activate tlcc  #  or 'conda activate tlcc'
+conda install pytorch torchvision cpuonly -c pytorch
+
+python setup.py install
+./tlcc/predict.py colony-count ./data/1.jpg
 
 ```

@@ -8,8 +8,7 @@ setup (
        version='0.1',
        packages=find_packages(),
        install_requires=['argh', 'h5py', 'matplotlib'],
-       data_files=[
-           ('data/', ['1.jpg'])],
+       data_files=[],
        classifiers=[
               'Development Status :: 3 - Alpha']
 )
