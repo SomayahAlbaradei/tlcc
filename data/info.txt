@@ -1,1 +1,1 @@
-Here we provide the colony plates with the ground truth labels.
+Here we provide the colony plates with the ground truth labels in the excel sheet.
